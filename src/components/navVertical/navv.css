@@ -1,0 +1,34 @@
+.Vnav {
+  width: 40px;
+  height: calc(100% - 35px);
+  display: flex;
+  flex-direction: column;
+  background-color: brown;
+  padding: 10px;
+  color: aliceblue;
+  position: absolute;
+  transition: 0.5s;
+}
+.Vnav a {
+  color: aliceblue;
+  text-decoration: none;
+}
+.categorias {
+  display: flex;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.categorias:hover {
+  filter: drop-shadow(5px 5px 10px #000000);
+}
+.categorias p {
+  margin-left: 15px;
+  visibility: hidden;
+}
+
+.Vnav:hover {
+  width: 150px;
+}
+.Vnav:hover > a .categorias p {
+  visibility: visible;
+}

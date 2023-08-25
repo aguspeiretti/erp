@@ -1,0 +1,10 @@
+.homeContainer {
+  width: 100%;
+  height: calc(100% - 35px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homeContainer img {
+  width: 400px;
+}
