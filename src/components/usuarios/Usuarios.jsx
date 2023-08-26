@@ -1,10 +1,15 @@
 import "./usuarios.css";
+import users from "../../assets/us.png"
 
 const Usuarios = () => {
   return (
     <>
       <div className="tableContainer">
-        <div className="tituloUsuarios">
+        <div>
+        <img src={users} alt="" />
+        </div>
+       
+        {/* <div className="tituloUsuarios">
           <h1>Listado de usuarios</h1>
           <button>Crear usuario</button>
         </div>
@@ -48,7 +53,7 @@ const Usuarios = () => {
               <td>010-7777777</td>
             </tr>
           </table>
-        </div>
+        </div> */}
       </div>
     </>
   );

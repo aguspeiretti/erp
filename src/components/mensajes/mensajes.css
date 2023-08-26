@@ -1,7 +1,8 @@
 .mensajesContainer {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(44, 44, 44);
+  background-color: #000;
+  color: white;
 }
 
 .selectorContainer {
@@ -13,27 +14,49 @@
   padding: 0px 30px;
 }
 button {
-  margin: 0;
-  margin-left: 20px;
+  border: 2px solid #ecedee;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  color: rgb(3, 3, 3);
+  margin-top: 40px;
+  margin-left: 10px;
   cursor: pointer;
-  background-color: #e7832b;
-  color: rgb(44, 44, 44);
 }
 .seletionContainer {
   width: 100%;
   height: 100%;
+  display: flex;
 }
 .selectionInputs {
   display: flex;
   flex-direction: column;
   width: 50%;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
-  margin-top: 50px;
+  
+ 
 }
+.selectionInputs .email{margin-bottom: 30px;}
 .selectionInputs input {
   width: 30%;
+  background-color: #27272a;
 }
 .selectionInputs textarea {
   border-radius: 15px;
+  background-color: #27272a;
+  color: white;
+  padding: 20px 0 0 20px;
+}
+.selectionUsers{
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+}
+.selectionUsers img{
+  height: 90%;
+}
+.whatsapp{
+  margin-bottom: 100px;
 }

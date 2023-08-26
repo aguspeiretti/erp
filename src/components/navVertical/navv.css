@@ -3,7 +3,7 @@
   height: calc(100% - 35px);
   display: flex;
   flex-direction: column;
-  background-color: brown;
+  background-color: #27272a;
   padding: 10px;
   color: aliceblue;
   position: absolute;
@@ -19,7 +19,7 @@
   cursor: pointer;
 }
 .categorias:hover {
-  filter: drop-shadow(5px 5px 10px #000000);
+  filter: drop-shadow(5px 5px 10px #ffffff);
 }
 .categorias p {
   margin-left: 15px;

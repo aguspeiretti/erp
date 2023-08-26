@@ -1,13 +1,14 @@
 .Hnav {
   width: 100%;
   height: 35px;
-  background-color: rgb(2, 45, 85);
+  background-color: #582263;
   display: flex;
   color: aliceblue;
   align-items: center;
   justify-content: space-between;
   padding: 0px 20px;
   font-size: 15px;
+
 }
 .Hnav a {
   color: aliceblue;
