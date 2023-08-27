@@ -11,9 +11,17 @@
   justify-content: center;
   align-items: center;
 }
+.contenedor{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin-top: 40px;
+}
 .container {
-  width: 45%;
-  height: 90%;
+  width: 80%;
+  height: 80%;
   background-color: #27272a;
   color: antiquewhite;
   display: flex;
@@ -62,11 +70,12 @@ label {
   margin-bottom: 10px;
 }
 input {
-  height: 30px;
-  border-radius: 15px;
+  height: 40px;
+  border-radius: 10px;
   margin-bottom: 10px;
   width: 70%;
   text-indent: 15px;
+  background-color: #27272a;
 }
 .formDiv button {
   
@@ -74,7 +83,8 @@ input {
   width: 100px;
   height: 40px;
   border-radius: 10px;
-  color: rgb(3, 3, 3);
+  background-color: rgb(46, 139, 226);
+  color: rgb(255, 255, 255);
   margin-top: 40px;
 }
 .registrado {

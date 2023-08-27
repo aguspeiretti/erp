@@ -1,14 +1,12 @@
 import "./usuarios.css";
 import users from "../../assets/us.png"
+import Prueba from "../TableNextUi/Prueba";
 
 const Usuarios = () => {
   return (
-    <>
-      <div className="tableContainer">
-        <div>
-        <img src={users} alt="" />
-        </div>
-       
+    <div className="tableContainer">
+     <div className="table"><Prueba /></div>
+    
         {/* <div className="tituloUsuarios">
           <h1>Listado de usuarios</h1>
           <button>Crear usuario</button>
@@ -54,8 +52,8 @@ const Usuarios = () => {
             </tr>
           </table>
         </div> */}
-      </div>
-    </>
+    
+    </div>
   );
 };
 

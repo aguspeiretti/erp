@@ -1,11 +1,12 @@
 import "./add.css";
-
+import {Input} from "@nextui-org/react";
 const Add = () => {
   return (
     <>
       <div className="addContainer">
         <div className="formContainer">
           <div className="formDiv">
+            
             <form className="registerForm">
               <label>Nombre</label>
               <input name="first_name" />
@@ -23,8 +24,10 @@ const Add = () => {
             </form>
           </div>
         </div>
+        <div className="contenedor">
         <div className="container">
           <h2>Usuarios creados</h2>
+        </div>
         </div>
       </div>
     </>
