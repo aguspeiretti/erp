@@ -4,7 +4,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: margin-left 0.5s; /* Agregar una transición para suavizar el cambio */
+ 
 }
+
+/* Cuando NavV se expanda, ajustar el margen izquierdo */
+.Vnav:hover + .homeContainer {
+  margin-left: 130px; /* Ancho de NavV abierto */
+}
+
 .homeContainer img {
   width: 500px;
 }

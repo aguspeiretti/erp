@@ -5,10 +5,13 @@ const Add = () => {
   return (
     <>
       <div className="addContainer">
-        <div className="formContainer">  
-        <FormR />
+        <div className="titleContainer">
+          <h1>Nuevo Usuario</h1>
+          <button>Guardar</button>
         </div>
-      
+        <div className="formContainer">  
+          <FormR />
+        </div>
       </div>
     </>
   );
