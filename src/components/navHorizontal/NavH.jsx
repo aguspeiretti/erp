@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import tuLogo from "../../assets/logo2.gif";
+
 import "./navh.css";
 
 const NavH = () => {
@@ -6,8 +8,8 @@ const NavH = () => {
     <>
       <div className="Hnav">
         <Link to={"/"}>
-          <div>
-            <p>NombreEmpresa</p>
+          <div className="imgContainer">
+            <img src={tuLogo} alt="" />
           </div>
         </Link>
         <div className="usuario">

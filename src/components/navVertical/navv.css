@@ -6,7 +6,7 @@
   background-color: #27272a;
   padding: 10px;
   color: aliceblue;
-  position: absolute;
+  position: fixed;
   transition: 0.5s;
 }
 .Vnav a {

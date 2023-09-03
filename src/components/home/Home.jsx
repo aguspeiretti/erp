@@ -1,5 +1,5 @@
 import "./home.css";
-import tuLogo from "../../assets/tuLogo.png";
+import tuLogo from "../../assets/logo.png";
 
 const Home = () => {
   return (

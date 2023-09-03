@@ -1,34 +1,14 @@
+import FormR from "../form/Form";
 import "./add.css";
-import {Input} from "@nextui-org/react";
+
 const Add = () => {
   return (
     <>
       <div className="addContainer">
-        <div className="formContainer">
-          <div className="formDiv">
-            
-            <form className="registerForm">
-              <label>Nombre</label>
-              <input name="first_name" />
-
-              <label>Apellido</label>
-              <input name="last_name" />
-
-              <label>Email</label>
-              <input name="email" />
-
-              <label>Telefono</label>
-              <input type="text" name="Telefono" />
-
-              <button type="submit">Agregar</button>
-            </form>
-          </div>
+        <div className="formContainer">  
+        <FormR />
         </div>
-        <div className="contenedor">
-        <div className="container">
-          <h2>Usuarios creados</h2>
-        </div>
-        </div>
+      
       </div>
     </>
   );
