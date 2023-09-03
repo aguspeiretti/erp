@@ -13,4 +13,5 @@
 }
 .content {
   flex: 1; /* El contenedor de contenido toma el espacio disponible */
+  overflow: scroll;
 }

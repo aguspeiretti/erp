@@ -1,49 +1,48 @@
-import { useState } from "react";
+
 import "./form.css";
 
 function FormR() {
-  const [validated, setValidated] = useState(false);
 
-  const handleSubmit = (event) => {
-    const form = event.currentTarget;
-    if (form.checkValidity() === false) {
-      event.preventDefault();
-      event.stopPropagation();
-    }
 
-    setValidated(true);
-  };
 
   return (
     <>
       <form>
         <li>
-          <label for="nombre">Nombre</label>
+          <label >Nombre</label>
           <input type="text" name="userName" id="" />
         </li>
         <li>
-          <label for="apellido">Apellido</label>
+          <label >Apellido</label>
           <input type="text" name="userName" id="" />
         </li>
         <li>
-          <label for="ciudad">Ciudad</label>
+          <label >Provincia</label>
           <input type="text" name="userName" id="" />
         </li>
         <li>
-          <label for="telefono">Telefono</label>
+          <label >Ciudad</label>
           <input type="text" name="userName" id="" />
         </li>
         <li>
-          <label for="edad">Edad</label>
+          <label >Telefono</label>
+          <input type="text" name="userName" id="" />
+        </li>
+        <li>
+          <label >Edad</label>
           <input type="number" name="userName" id="" />
         </li>
         <li>
-          <label for="palabra">Filtro</label>
+          <label>Filtro</label>
           <input type="number" name="userName" id="" />
         </li>
+        <li className="buttonContainer"> 
+        <button>Agregar</button>
+        </li >
+        
       </form>
     </>
-  );
+  ); 
 }
 
 export default FormR;

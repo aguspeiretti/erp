@@ -2,13 +2,34 @@ form{
     display: flex;
     padding: 0 30px;
     flex-wrap: wrap;
+    width: 98%;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 
 }
 form li{
+    width: 25%;
     text-decoration: none;
     list-style: none;
     display: flex;
     flex-direction: column;
     padding:15px ;
 
+}
+label{
+    font-size: 13px;
+    color: #858a8c;
+    margin-bottom: 10px;
+}
+input{
+    min-height: 34px;
+    min-width: 250px;
+    border-radius: 5px;
+    border: 1px solid #b6b8b9;
+    background-color: transparent;
+}
+.buttonContainer{
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
