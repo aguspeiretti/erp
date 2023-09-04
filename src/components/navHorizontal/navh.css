@@ -8,13 +8,12 @@
   justify-content: space-between;
   padding: 0px 20px;
   font-size: 15px;
-
 }
-.imgContainer{
+.imgContainer {
   width: 200px;
   height: 100%;
 }
-.imgContainer img{
+.imgContainer img {
   height: 80%;
 }
 .Hnav a {
@@ -26,7 +25,4 @@
   width: 10%;
   justify-content: space-around;
   align-items: center;
-}
-.usuario p{
-  margin-top: 20px;
 }

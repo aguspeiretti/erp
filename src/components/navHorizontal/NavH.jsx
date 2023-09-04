@@ -13,7 +13,7 @@ const NavH = () => {
           </div>
         </Link>
         <div className="usuario">
-          <p>Usuario</p>
+          <p className="username">Usuario</p>
           <i className="fa-solid fa-user"></i>
         </div>
       </div>

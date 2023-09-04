@@ -1,12 +1,26 @@
-.tableContainer {
+.tableContainerPrincipal {
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-.table{
-  width: 75%;
-  height: 30%; 
-  margin-top: 30px;
-  background-color: brown;
+.titleContainer {
+  width: 98%;
+  height: 6%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: #fff;
+  margin: 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tableContainerEmpresa {
+  width: 98%;
+  height: 65%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }

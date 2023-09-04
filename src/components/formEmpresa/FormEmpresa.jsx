@@ -1,15 +1,11 @@
-import "./form.css";
+import "./formEmpresa.css";
 
-function FormR() {
+function FormEmpresa() {
   return (
     <>
       <form>
         <li>
-          <label>Nombre</label>
-          <input className="inputForm" type="text" name="userName" id="" />
-        </li>
-        <li>
-          <label>Apellido</label>
+          <label>Empresa</label>
           <input className="inputForm" type="text" name="userName" id="" />
         </li>
         <li>
@@ -21,11 +17,11 @@ function FormR() {
           <input className="inputForm" type="text" name="userName" id="" />
         </li>
         <li>
-          <label>Telefono</label>
+          <label>Email</label>
           <input className="inputForm" type="text" name="userName" id="" />
         </li>
         <li>
-          <label>Edad</label>
+          <label>Redes Sociales</label>
           <input className="inputForm" type="number" name="userName" id="" />
         </li>
         <li>
@@ -40,4 +36,4 @@ function FormR() {
   );
 }
 
-export default FormR;
+export default FormEmpresa;

@@ -8,8 +8,8 @@ const NavV = () => {
         <Link to={"/usuarios"}>
           {" "}
           <div className="categorias">
-            <i className="fa-solid fa-user-group"></i>
-            <p>Usuarios</p>
+            <i className="fa-solid fa-building-user"></i>
+            <p>+empresas</p>
           </div>
         </Link>
         <Link to={"/agregar"}>

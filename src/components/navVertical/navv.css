@@ -1,13 +1,12 @@
 .Vnav {
   width: 40px;
-  height: calc(100% );
+  height: calc(100%);
   display: flex;
   flex-direction: column;
   background-color: #27272a;
   padding: 10px;
   color: aliceblue;
   transition: 0.5s;
-  
 }
 .Vnav a {
   color: aliceblue;
@@ -31,4 +30,5 @@
 }
 .Vnav:hover > a .categorias p {
   visibility: visible;
+  transition: 0.5s;
 }

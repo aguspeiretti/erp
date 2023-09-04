@@ -1,4 +1,3 @@
-
 import FormR from "../form/Form";
 import Table from "../table/Table";
 import "./add.css";
@@ -11,11 +10,11 @@ const Add = () => {
           <h1>Nuevo Usuario</h1>
           <button>Guardar</button>
         </div>
-        <div className="formContainer">  
+        <div className="formContainer">
           <FormR />
         </div>
-        <div className="tableContainer">
-          <Table/>
+        <div className="tableContainerUser">
+          <Table />
         </div>
       </div>
     </>
