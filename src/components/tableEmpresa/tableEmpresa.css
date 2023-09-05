@@ -8,7 +8,7 @@
   background-color: #fff;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   justify-content: center;
-  overflow-y: scroll;
+  overflow: scroll;
 }
 table {
   width: 100%;
@@ -17,6 +17,9 @@ table {
 .topTable {
   background-color: rgb(161, 161, 161);
   height: 40px;
+}
+.topTable td {
+  width: 20%;
 }
 .buscador {
   margin-top: 20px;
